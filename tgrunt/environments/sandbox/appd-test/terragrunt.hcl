@@ -24,8 +24,8 @@ app_specific_settings = {
 
 inputs = merge(
   locals,
-  app.inputs,
   env.locals,
+  app.inputs,
   app_specific_settings
 )
 
